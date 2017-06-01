@@ -5,13 +5,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Waveforms.vi" Type="VI" URL="../Waveforms.vi"/>
-	<Item Name="Waveforms.lvtest" Type="TestItem" URL="../Waveforms.lvtest">
-		<Property Name="utf.test.bind" Type="Str">Waveforms.lvlib:Waveforms.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">344C0B2B-55AD-EB57-E63A-EADA44B0707C</Property>
-	</Item>
 	<Item Name="Array of Waveforms.vi" Type="VI" URL="../Array of Waveforms.vi"/>
-	<Item Name="Array of Waveforms.lvtest" Type="TestItem" URL="../Array of Waveforms.lvtest">
-		<Property Name="utf.test.bind" Type="Str">Waveforms.lvlib:Array of Waveforms.vi</Property>
-		<Property Name="utf.vector.test.bind" Type="Str">79EE39BA-F6C0-07DE-F038-E7DE15CDB058</Property>
-	</Item>
 </Library>

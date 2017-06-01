@@ -1,0 +1,577 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>LabVIEW Unit Test Framework</title>
+<link rel="stylesheet" type="text/css" href="file://localhost/C|/Program%20Files%20(x86)/National%20Instruments/LabVIEW%202015/vi.lib/utf/results/utf_default.css">
+</head>
+<body>
+<h1>Basic Functions</h1>
+Time: 02/06/2017 00:23:22<br>
+User Name: 50056<br>Operating System: Windows 95/NT<br>Operating System Version: 10.0<br>Target CPU: Intel x86<br>Target IP: 192.168.56.1<br>LabVIEW Version: 15.0.1f7(en)<br>
+
+<h2>Test Summary</h2>
+0 Test Error(s)<br>
+4 Test(s) Failed<br>
+0 Test(s) Skipped<br>
+3 Test(s) Passed<br>
+Time elapsed: 00:00:13<br>
+Project code coverage: 100.0%<br>
+VI percentage: 6 / 6<br>
+<h2>Test Results</h2>
+
+<h3>Failed</h3>
+<table border="1">
+<tr><th>Test Name</th><th>Test Location</th><th>VI Name</th><th>Test Case</th><th>Duration [s]</th><th>Code Coverage [%]</th><th>Requirement ID</th></tr>
+<tr><td><a href="#Link1">Divide by Zero.lvtest</a></td><td>My Computer/UnitTests</td><td>Divide.vi</td><td>1</td><td>0.57</td><td>66.7</td><td>&nbsp;</td></tr>
+<tr><td><a href="#Link4">Subtract.lvtest</a></td><td>My Computer/UnitTests</td><td>Subtract.vi</td><td>2</td><td>0.76</td><td>100.0</td><td>&nbsp;</td></tr>
+<tr><td><a href="#Link5">Waveforms.lvtest</a></td><td>My Computer/Waveforms.lvlib</td><td>Waveforms.vi</td><td>1</td><td>1.51</td><td>100.0</td><td>&nbsp;</td></tr>
+<tr><td><a href="#Link6">Array of Waveforms.lvtest</a></td><td>My Computer/Waveforms.lvlib</td><td>Array of Waveforms.vi</td><td>1</td><td>0.98</td><td>100.0</td><td>&nbsp;</td></tr>
+</table>
+
+<h3>Passed</h3>
+<table border="1">
+<tr><th>Test Name</th><th>Test Location</th><th>VI Name</th><th>Test Case</th><th>Duration [s]</th><th>Code Coverage [%]</th><th>Requirement ID</th></tr>
+<tr><td><a href="#Link0">Add.lvtest</a></td><td>My Computer/UnitTests</td><td>Add.vi</td><td>3</td><td>1.06</td><td>100.0</td><td>&nbsp;</td></tr>
+<tr><td><a href="#Link2">Divide.lvtest</a></td><td>My Computer/UnitTests</td><td>Divide.vi</td><td>3</td><td>1.10</td><td>66.7</td><td>&nbsp;</td></tr>
+<tr><td><a href="#Link3">Multiply.lvtest</a></td><td>My Computer/UnitTests</td><td>Multiply.vi</td><td>2</td><td>0.76</td><td>100.0</td><td>&nbsp;</td></tr>
+</table>
+<h2>Test Details</h2>
+<b>
+<a name="Link0">1. My Computer<br>1.1. UnitTests<br>1.1.1. Add.lvtest<br></a>
+</b>
+<table border="0">
+<tr><td>VI under Test:</td><td>C:\Users\50056\Documents\GitHub\TestProject\source\Add.vi</td></tr>
+<tr><td>Result:</td><td>Passed</td></tr>
+<tr><td>VI Timestamp:</td><td>02/06/2017 00:15:01</td></tr>
+<tr><td>VI Revision:</td><td>40</td></tr>
+<tr><td>Test Started:</td><td>02/06/2017 00:23:08</td></tr>
+<tr><td>Test Duration:</td><td>00:00:01</td></tr>
+<tr><td>Code Coverage:</td><td>100.0</td></tr>
+
+<tr><td>Setup VI:</td>
+<td></td></tr><tr><td>Teardown VI:</td>
+<td></td></tr></table>
+<ol><li>Test Case 1: Passed<br><ul style="list-style-type:none"><li><table border="1"><tr><th>Repetition</th><th>Permutation</th><th>VI</th><th>In/Out</th><th>Control</th><th>Comparison</th><th>Used Vector Value</th><th>Value</th><th>Expected Value</th></tr><tr><td rowspan="3">1</td><td rowspan="3">1</td><td rowspan="3">VI under Test</td><td rowspan="2">In</td><td>x</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>&nbsp;</td></tr><tr><td>y</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>&nbsp;</td></tr><tr><td rowspan="1">Out</td><td>x+y</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>0</td></tr></table></li></ul></li><li>Test Case 2: Passed<br><ul style="list-style-type:none"><li><table border="1"><tr><th>Repetition</th><th>Permutation</th><th>VI</th><th>In/Out</th><th>Control</th><th>Comparison</th><th>Used Vector Value</th><th>Value</th><th>Expected Value</th></tr><tr><td rowspan="3">1</td><td rowspan="3">1</td><td rowspan="3">VI under Test</td><td rowspan="2">In</td><td>x</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td></tr><tr><td>y</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td></tr><tr><td rowspan="1">Out</td><td>x+y</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>2</td>
+<td>2</td></tr></table></li></ul></li><li>Test Case 3: Passed<br><ul style="list-style-type:none"><li><table border="1"><tr><th>Repetition</th><th>Permutation</th><th>VI</th><th>In/Out</th><th>Control</th><th>Comparison</th><th>Used Vector Value</th><th>Value</th><th>Expected Value</th></tr><tr><td rowspan="3">1</td><td rowspan="3">1</td><td rowspan="3">VI under Test</td><td rowspan="2">In</td><td>x</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td></tr><tr><td>y</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>-1</td>
+<td>&nbsp;</td></tr><tr><td rowspan="1">Out</td><td>x+y</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>0</td></tr></table></li></ul></li></ol>
+<b>
+<a name="Link1">1.1.2. Divide by Zero.lvtest<br></a>
+</b>
+<table border="0">
+<tr><td>VI under Test:</td><td>C:\Users\50056\Documents\GitHub\TestProject\source\Divide.vi</td></tr>
+<tr><td>Result:</td><td>Failed</td></tr>
+<tr><td>VI Timestamp:</td><td>02/06/2017 00:15:01</td></tr>
+<tr><td>VI Revision:</td><td>52</td></tr>
+<tr><td>Test Started:</td><td>02/06/2017 00:23:10</td></tr>
+<tr><td>Test Duration:</td><td>00:00:01</td></tr>
+<tr><td>Code Coverage:</td><td>66.7</td></tr>
+
+<tr><td>Setup VI:</td>
+<td></td></tr><tr><td>Teardown VI:</td>
+<td></td></tr></table>
+<ol><li>Test Case 1: Failed<br><ul style="list-style-type:none"><li><table border="1"><tr><th>Repetition</th><th>Permutation</th><th>VI</th><th>In/Out</th><th>Control</th><th>Comparison</th><th>Used Vector Value</th><th>Value</th><th>Expected Value</th></tr><tr><td rowspan="9">1</td><td rowspan="9">1</td><td rowspan="9">VI under Test</td><td rowspan="5">In</td><td>x</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>&nbsp;</td></tr><tr><td>y</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>&nbsp;</td></tr><tr><td>Error In|status</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>FALSE</td>
+<td>&nbsp;</td></tr><tr><td>Error In|code</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>&nbsp;</td></tr><tr><td>Error In|source</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr><tr><td rowspan="4">Out</td><td>z</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>NaN</td>
+<td>NaN</td></tr><tr><td>Error Out|status</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>TRUE</td>
+<td>TRUE</td></tr><tr><td>Error Out|code</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>-1</td>
+<td>-1</td></tr><tr><td><font color=#FF0000>Error Out|source</font></td>
+<td><font color=#FF0000>=</font></td>
+<td><font color=#FF0000>&nbsp;</font></td>
+<td><font color=#FF0000>Basic Functions.lvlib:Divide.vi</font></td>
+<td><font color=#FF0000>Divide.vi</font></td></tr></table></li></ul></li></ol>
+<b>
+<a name="Link2">1.1.3. Divide.lvtest<br></a>
+</b>
+<table border="0">
+<tr><td>VI under Test:</td><td>C:\Users\50056\Documents\GitHub\TestProject\source\Divide.vi</td></tr>
+<tr><td>Result:</td><td>Passed</td></tr>
+<tr><td>VI Timestamp:</td><td>02/06/2017 00:15:01</td></tr>
+<tr><td>VI Revision:</td><td>52</td></tr>
+<tr><td>Test Started:</td><td>02/06/2017 00:23:11</td></tr>
+<tr><td>Test Duration:</td><td>00:00:01</td></tr>
+<tr><td>Code Coverage:</td><td>66.7</td></tr>
+
+<tr><td>Setup VI:</td>
+<td></td></tr><tr><td>Teardown VI:</td>
+<td></td></tr></table>
+<ol><li>Test Case 1: Passed<br><ul style="list-style-type:none"><li><table border="1"><tr><th>Repetition</th><th>Permutation</th><th>VI</th><th>In/Out</th><th>Control</th><th>Comparison</th><th>Used Vector Value</th><th>Value</th><th>Expected Value</th></tr><tr><td rowspan="9">1</td><td rowspan="9">1</td><td rowspan="9">VI under Test</td><td rowspan="5">In</td><td>x</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td></tr><tr><td>y</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td></tr><tr><td>Error In|status</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>FALSE</td>
+<td>&nbsp;</td></tr><tr><td>Error In|code</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>&nbsp;</td></tr><tr><td>Error In|source</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr><tr><td rowspan="4">Out</td><td>z</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>1</td></tr><tr><td>Error Out|status</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>FALSE</td>
+<td>FALSE</td></tr><tr><td>Error Out|code</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>0</td></tr><tr><td>Error Out|source</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr></table></li></ul></li><li>Test Case 2: Passed<br><ul style="list-style-type:none"><li><table border="1"><tr><th>Repetition</th><th>Permutation</th><th>VI</th><th>In/Out</th><th>Control</th><th>Comparison</th><th>Used Vector Value</th><th>Value</th><th>Expected Value</th></tr><tr><td rowspan="9">1</td><td rowspan="9">1</td><td rowspan="9">VI under Test</td><td rowspan="5">In</td><td>x</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>12</td>
+<td>&nbsp;</td></tr><tr><td>y</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>3</td>
+<td>&nbsp;</td></tr><tr><td>Error In|status</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>FALSE</td>
+<td>&nbsp;</td></tr><tr><td>Error In|code</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>&nbsp;</td></tr><tr><td>Error In|source</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr><tr><td rowspan="4">Out</td><td>z</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>4</td>
+<td>4</td></tr><tr><td>Error Out|status</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>FALSE</td>
+<td>FALSE</td></tr><tr><td>Error Out|code</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>0</td></tr><tr><td>Error Out|source</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr></table></li></ul></li><li>Test Case 3: Passed<br><ul style="list-style-type:none"><li><table border="1"><tr><th>Repetition</th><th>Permutation</th><th>VI</th><th>In/Out</th><th>Control</th><th>Comparison</th><th>Used Vector Value</th><th>Value</th><th>Expected Value</th></tr><tr><td rowspan="9">1</td><td rowspan="9">1</td><td rowspan="9">VI under Test</td><td rowspan="5">In</td><td>x</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td></tr><tr><td>y</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>-1</td>
+<td>&nbsp;</td></tr><tr><td>Error In|status</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>FALSE</td>
+<td>&nbsp;</td></tr><tr><td>Error In|code</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>&nbsp;</td></tr><tr><td>Error In|source</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr><tr><td rowspan="4">Out</td><td>z</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>-1</td>
+<td>-1</td></tr><tr><td>Error Out|status</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>FALSE</td>
+<td>FALSE</td></tr><tr><td>Error Out|code</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>0</td></tr><tr><td>Error Out|source</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr></table></li></ul></li></ol>
+<b>
+<a name="Link3">1.1.4. Multiply.lvtest<br></a>
+</b>
+<table border="0">
+<tr><td>VI under Test:</td><td>C:\Users\50056\Documents\GitHub\TestProject\source\Multiply.vi</td></tr>
+<tr><td>Result:</td><td>Passed</td></tr>
+<tr><td>VI Timestamp:</td><td>02/06/2017 00:15:01</td></tr>
+<tr><td>VI Revision:</td><td>34</td></tr>
+<tr><td>Test Started:</td><td>02/06/2017 00:23:13</td></tr>
+<tr><td>Test Duration:</td><td>00:00:01</td></tr>
+<tr><td>Code Coverage:</td><td>100.0</td></tr>
+
+<tr><td>Setup VI:</td>
+<td></td></tr><tr><td>Teardown VI:</td>
+<td></td></tr></table>
+<ol><li>Test Case 1: Passed<br><ul style="list-style-type:none"><li><table border="1"><tr><th>Repetition</th><th>Permutation</th><th>VI</th><th>In/Out</th><th>Control</th><th>Comparison</th><th>Used Vector Value</th><th>Value</th><th>Expected Value</th></tr><tr><td rowspan="3">1</td><td rowspan="3">1</td><td rowspan="3">VI under Test</td><td rowspan="2">In</td><td>x</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>&nbsp;</td></tr><tr><td>y</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>&nbsp;</td></tr><tr><td rowspan="1">Out</td><td>x*y</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>0</td></tr></table></li></ul></li><li>Test Case 2: Passed<br><ul style="list-style-type:none"><li><table border="1"><tr><th>Repetition</th><th>Permutation</th><th>VI</th><th>In/Out</th><th>Control</th><th>Comparison</th><th>Used Vector Value</th><th>Value</th><th>Expected Value</th></tr><tr><td rowspan="3">1</td><td rowspan="3">1</td><td rowspan="3">VI under Test</td><td rowspan="2">In</td><td>x</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td></tr><tr><td>y</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td></tr><tr><td rowspan="1">Out</td><td>x*y</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>1</td></tr></table></li></ul></li></ol>
+<b>
+<a name="Link4">1.1.5. Subtract.lvtest<br></a>
+</b>
+<table border="0">
+<tr><td>VI under Test:</td><td>C:\Users\50056\Documents\GitHub\TestProject\source\Subtract.vi</td></tr>
+<tr><td>Result:</td><td>Failed</td></tr>
+<tr><td>VI Timestamp:</td><td>02/06/2017 00:15:01</td></tr>
+<tr><td>VI Revision:</td><td>33</td></tr>
+<tr><td>Test Started:</td><td>02/06/2017 00:23:15</td></tr>
+<tr><td>Test Duration:</td><td>00:00:01</td></tr>
+<tr><td>Code Coverage:</td><td>100.0</td></tr>
+
+<tr><td>Setup VI:</td>
+<td></td></tr><tr><td>Teardown VI:</td>
+<td></td></tr></table>
+<ol><li>Test Case 1: Passed<br><ul style="list-style-type:none"><li><table border="1"><tr><th>Repetition</th><th>Permutation</th><th>VI</th><th>In/Out</th><th>Control</th><th>Comparison</th><th>Used Vector Value</th><th>Value</th><th>Expected Value</th></tr><tr><td rowspan="3">1</td><td rowspan="3">1</td><td rowspan="3">VI under Test</td><td rowspan="2">In</td><td>x</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>&nbsp;</td></tr><tr><td>y</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>&nbsp;</td></tr><tr><td rowspan="1">Out</td><td>x-y</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>0</td></tr></table></li></ul></li><li>Test Case 2: Failed<br><ul style="list-style-type:none"><li><table border="1"><tr><th>Repetition</th><th>Permutation</th><th>VI</th><th>In/Out</th><th>Control</th><th>Comparison</th><th>Used Vector Value</th><th>Value</th><th>Expected Value</th></tr><tr><td rowspan="3">1</td><td rowspan="3">1</td><td rowspan="3">VI under Test</td><td rowspan="2">In</td><td>x</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1</td>
+<td>&nbsp;</td></tr><tr><td>y</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>-1</td>
+<td>&nbsp;</td></tr><tr><td rowspan="1">Out</td><td><font color=#FF0000>x-y</font></td>
+<td><font color=#FF0000>=</font></td>
+<td><font color=#FF0000>&nbsp;</font></td>
+<td><font color=#FF0000>2</font></td>
+<td><font color=#FF0000>0</font></td></tr></table></li></ul></li></ol>
+<b>
+<a name="Link5">1.2. Waveforms.lvlib<br>1.2.1. Waveforms.lvtest<br></a>
+</b>
+<table border="0">
+<tr><td>VI under Test:</td><td>C:\Users\50056\Documents\GitHub\TestProject\source\Waveforms.vi</td></tr>
+<tr><td>Result:</td><td>Failed</td></tr>
+<tr><td>VI Timestamp:</td><td>16/06/2015 00:19:02</td></tr>
+<tr><td>VI Revision:</td><td>42</td></tr>
+<tr><td>Test Started:</td><td>02/06/2017 00:23:17</td></tr>
+<tr><td>Test Duration:</td><td>00:00:02</td></tr>
+<tr><td>Code Coverage:</td><td>100.0</td></tr>
+
+<tr><td>Setup VI:</td>
+<td></td></tr><tr><td>Teardown VI:</td>
+<td></td></tr></table>
+<ol><li>Test Case 1: Failed<br><ul style="list-style-type:none"><li><table border="1"><tr><th>Repetition</th><th>Permutation</th><th>VI</th><th>In/Out</th><th>Control</th><th>Comparison</th><th>Used Vector Value</th><th>Value</th><th>Expected Value</th></tr><tr><td rowspan="26">1</td><td rowspan="26">1</td><td rowspan="26">VI under Test</td><td rowspan="7">In</td><td>amplitude 1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>10</td>
+<td>&nbsp;</td></tr><tr><td>amplitude 2</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>20</td>
+<td>&nbsp;</td></tr><tr><td>amplitude 3</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>30</td>
+<td>&nbsp;</td></tr><tr><td>amplitude 4</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>40</td>
+<td>&nbsp;</td></tr><tr><td>Error In/status</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>FALSE</td>
+<td>&nbsp;</td></tr><tr><td>Error In/code</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>&nbsp;</td></tr><tr><td>Error In/source</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr><tr><td rowspan="19">Out</td><td>signal 1/t0</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>1904-01-01 00:00:00:0.000000</td>
+<td>1904-01-01 00:00:00:0.000000</td></tr><tr><td>signal 1/dt</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>0.001</td>
+<td>0.001</td></tr><tr><td><font color=#FF0000>signal 1/Y</font></td>
+<td><font color=#FF0000>=</font></td>
+<td><font color=#FF0000>&nbsp;</font></td>
+<td><font color=#FF0000>[...]</font></td>
+<td><font color=#FF0000>[...]</font></td></tr><tr><td>signal 1/attributes</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>[...]</td>
+<td>[...]</td></tr><tr><td>signal 2/t0</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>1904-01-01 00:00:00:0.000000</td>
+<td>1904-01-01 00:00:00:0.000000</td></tr><tr><td>signal 2/dt</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>0.001</td>
+<td>0.001</td></tr><tr><td><font color=#FF0000>signal 2/Y</font></td>
+<td><font color=#FF0000>=</font></td>
+<td><font color=#FF0000>&nbsp;</font></td>
+<td><font color=#FF0000>[...]</font></td>
+<td><font color=#FF0000>[...]</font></td></tr><tr><td>signal 2/attributes</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>[...]</td>
+<td>[...]</td></tr><tr><td>signal 3/t0</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>1904-01-01 00:00:00:0.000000</td>
+<td>1904-01-01 00:00:00:0.000000</td></tr><tr><td>signal 3/dt</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>0.001</td>
+<td>0.001</td></tr><tr><td><font color=#FF0000>signal 3/Y</font></td>
+<td><font color=#FF0000>=</font></td>
+<td><font color=#FF0000>&nbsp;</font></td>
+<td><font color=#FF0000>[...]</font></td>
+<td><font color=#FF0000>100;</font></td></tr><tr><td>signal 3/attributes</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>[...]</td>
+<td>[...]</td></tr><tr><td>signal 4/t0</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>1904-01-01 00:00:00:0.000000</td>
+<td>1904-01-01 00:00:00:0.000000</td></tr><tr><td><font color=#FF0000>signal 4/dt</font></td>
+<td><font color=#FF0000>=</font></td>
+<td><font color=#FF0000>&nbsp;</font></td>
+<td><font color=#FF0000>0.001</font></td>
+<td><font color=#FF0000>-20</font></td></tr><tr><td><font color=#FF0000>signal 4/Y</font></td>
+<td><font color=#FF0000>=</font></td>
+<td><font color=#FF0000>&nbsp;</font></td>
+<td><font color=#FF0000>[...]</font></td>
+<td><font color=#FF0000>-20;</font></td></tr><tr><td>signal 4/attributes</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>[...]</td>
+<td>[...]</td></tr><tr><td>Error Out/status</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>FALSE</td>
+<td>FALSE</td></tr><tr><td>Error Out/code</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>0</td></tr><tr><td>Error Out/source</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr></table></li></ul></li></ol>
+<b>
+<a name="Link6">1.2.2. Array of Waveforms.lvtest<br></a>
+</b>
+<table border="0">
+<tr><td>VI under Test:</td><td>C:\Users\50056\Documents\GitHub\TestProject\source\Array of Waveforms.vi</td></tr>
+<tr><td>Result:</td><td>Failed</td></tr>
+<tr><td>VI Timestamp:</td><td>16/06/2015 00:19:04</td></tr>
+<tr><td>VI Revision:</td><td>31</td></tr>
+<tr><td>Test Started:</td><td>02/06/2017 00:23:20</td></tr>
+<tr><td>Test Duration:</td><td>00:00:01</td></tr>
+<tr><td>Code Coverage:</td><td>100.0</td></tr>
+
+<tr><td>Setup VI:</td>
+<td></td></tr><tr><td>Teardown VI:</td>
+<td></td></tr></table>
+<ol><li>Test Case 1: Failed<br><ul style="list-style-type:none"><li><table border="1"><tr><th>Repetition</th><th>Permutation</th><th>VI</th><th>In/Out</th><th>Control</th><th>Comparison</th><th>Used Vector Value</th><th>Value</th><th>Expected Value</th></tr><tr><td rowspan="23">1</td><td rowspan="23">1</td><td rowspan="23">VI under Test</td><td rowspan="7">In</td><td>amplitude 1</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>10</td>
+<td>&nbsp;</td></tr><tr><td>amplitude 2</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>20</td>
+<td>&nbsp;</td></tr><tr><td>amplitude 3</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>30</td>
+<td>&nbsp;</td></tr><tr><td>amplitude 4</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>40</td>
+<td>&nbsp;</td></tr><tr><td>error in (no error)/status</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>FALSE</td>
+<td>&nbsp;</td></tr><tr><td>error in (no error)/code</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>&nbsp;</td></tr><tr><td>error in (no error)/source</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr><tr><td rowspan="16">Out</td><td>error out/status</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>FALSE</td>
+<td>FALSE</td></tr><tr><td>error out/code</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>0</td>
+<td>0</td></tr><tr><td>error out/source</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr><tr><td>waveforms[0]/signal out/t0</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>1904-01-01 00:00:00:0.000000</td>
+<td>1904-01-01 00:00:00:0.000000</td></tr><tr><td>waveforms[0]/signal out/dt</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>0.001</td>
+<td>0.001</td></tr><tr><td>waveforms[0]/signal out/Y</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>[...]</td>
+<td>[...]</td></tr><tr><td>waveforms[0]/signal out/attributes</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>[...]</td>
+<td>[...]</td></tr><tr><td>waveforms[1]/signal out/dt</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>0.001</td>
+<td>0.001</td></tr><tr><td>waveforms[1]/signal out/Y</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>[...]</td>
+<td>[...]</td></tr><tr><td>waveforms[1]/signal out/attributes</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>[...]</td>
+<td>[...]</td></tr><tr><td>waveforms[2]/signal out/dt</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>0.001</td>
+<td>0.001</td></tr><tr><td><font color=#FF0000>waveforms[2]/signal out/Y</font></td>
+<td><font color=#FF0000>array size</font></td>
+<td><font color=#FF0000>&nbsp;</font></td>
+<td><font color=#FF0000>&nbsp;</font></td>
+<td><font color=#FF0000>[0]: 100</font></td></tr><tr><td>waveforms[2]/signal out/attributes</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>[...]</td>
+<td>[...]</td></tr><tr><td>waveforms[3]/signal out/dt</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>0.001</td>
+<td>0.001</td></tr><tr><td><font color=#FF0000>waveforms[3]/signal out/Y</font></td>
+<td><font color=#FF0000>array range</font></td>
+<td><font color=#FF0000>&nbsp;</font></td>
+<td><font color=#FF0000>[...]</font></td>
+<td><font color=#FF0000>Min: -5<br>Max: 5</font></td></tr><tr><td>waveforms[3]/signal out/attributes</td>
+<td>=</td>
+<td>&nbsp;</td>
+<td>[...]</td>
+<td>[...]</td></tr></table></li></ul></li></ol>
+</body>
+</html>
