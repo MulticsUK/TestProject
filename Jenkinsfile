@@ -2,12 +2,6 @@ pipeline {
   agent any
   stages {
     stage('Test') {
-      agent {
-        node {
-          label 'Alfred'
-        }
-        
-      }
       steps {
         echo 'Analyser'
       }
