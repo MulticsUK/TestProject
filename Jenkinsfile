@@ -23,13 +23,9 @@ pipeline {
             echo 'Reporting'
           }
         }
-        stage('h') {
+        stage('Temp') {
           steps {
-            deleteDir()
-            retry(count: RETRY_COUNT) {
-              sleep 5
-            }
-            
+            echo 'Temporary Files'
           }
         }
       }
